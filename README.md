@@ -15,7 +15,7 @@
 - **failure handling**, retries, graceful degradation, and full **tracing**
 - **automated tests** (20 unit/integration/UI tests plus 5 budget evals) that run without paid API calls
 
-**Example run (live data, Nov 2026).** SEA → Las Vegas, Nov 11–18, $2,000 budget: nonstop Southwest flight ($622) + a 7-night hotel (~$600–$650) + 3 top activities, about **$1,220–$1,270 total in one pass (~7–9 s)**. Live prices change; the point is that every price in the tables comes from a search result, not from the model.
+**Example run (live data, Nov 2026).** SEA → Las Vegas, Nov 11–18, $2,000 budget: nonstop Southwest flight ($622) + a 7-night hotel (~$600–$650) + 3 top activities, about **$1,220–$1,270 total in one pass (~7–9 s)**. Live prices change; the point is that every price in the tables comes from a search result, not from the model. You can checkout a sample test run here: https://github.com/NishantKJani/Multi-Agent-AI-Trip-Planner/blob/main/live_run_example.pdf
 
 **Tech:** Python · Anthropic Claude (tool use) · Pydantic v2 · asyncio · SerpAPI (Google Flights, Hotels, Maps) · Streamlit · unittest
 
