@@ -1,4 +1,4 @@
-# Multi-Agent Trip Planner
+# Multi-Agent AI Trip Planner
 
 > A coordinator LLM agent delegates flight, hotel and activity research to parallel sub-agents that use **live Google Flights / Hotels / Maps data**, then a deterministic budget agent iterates with them until the plan fits your budget. Every offer shown in the results (price, flight, hotel, place) is verified against real search results.
 
